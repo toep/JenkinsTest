@@ -1,4 +1,4 @@
-class Main
+classs Main
 {;;
   psublic static void main(String[] args)
   {
