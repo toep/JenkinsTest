@@ -1,4 +1,4 @@
-class Main
+iclass Main
 {
   public static void main(String[] args)
   {
