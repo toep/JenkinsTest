@@ -8,7 +8,11 @@ JC = javac
 CLASSES = \
 	src/Main.java
 
-default: classes
+default: build
+
+build:
+	@mkdir -p out
+	$(MAKE) classes
 
 classes: $(CLASSES:.java=.class)
 
